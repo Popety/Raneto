@@ -1,4 +1,7 @@
-# Set up Raneto on Digital Ocean
+/*
+Title: Set up Raneto on Digital Ocean
+Sort: 2
+*/
 
 ## Create server
 

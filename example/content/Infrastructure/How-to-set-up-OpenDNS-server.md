@@ -1,4 +1,7 @@
-# Set up VPN on Digital Ocean
+/*
+Title: Set up VPN on Digital Ocean
+Sort: 2
+*/
 
 ## EPEL Package
 
@@ -263,7 +266,7 @@ get /etc/openvpn/easy-rsa/keys/achawathe.key /Users/tclement/sftp
   client
   dev tun
   proto udp
-  remote 128.199.176.58 1194
+  remote 128.123.176.57 1194
   resolv-retry infinite
   nobind
   persist-key

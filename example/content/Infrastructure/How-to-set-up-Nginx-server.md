@@ -1,4 +1,7 @@
-# Set up NGINX Load balancer on Digital Ocean
+/*
+Title: Set up NGINX Load balancer on Digital Ocean
+Sort: 2
+*/
 
 ## Create server
 
@@ -53,29 +56,6 @@ server {
         proxy_set_header HTTP_AUTHORIZATION $http_authorization;
     }
 }
-```
-> example with admin site:
-```
-upstream admin  {
-   server 10.130.25.236:5000 weight=1;#admin.popety.com
-}
-server {
-    listen       80;
-    server_name  lb3.popety.com;
-
-    access_log  /var/log/nginx/popety.access.log  main;
-
-    location / {
-        proxy_pass http://admin/dashboard/;
-        proxy_http_version 1.1
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
-        proxy_set_header HTTP_AUTHORIZATION $http_authorization;
-    }
-}
-```
 
 3. Remove the server part in nginx.conf configuration
 ```

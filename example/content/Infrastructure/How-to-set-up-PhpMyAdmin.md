@@ -1,4 +1,7 @@
-# Set up phpMyAdmin on Digital Ocean VPS
+/*
+Title: Set up phpMyAdmin on Digital Ocean VPS
+Sort: 2
+*/
 
 ## Create server
 

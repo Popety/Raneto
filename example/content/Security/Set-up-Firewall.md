@@ -1,4 +1,7 @@
-# VPN access
+/*
+Title: VPN access
+Sort: 2
+*/
 
 The aim of this document is to explain how to set up firewall to allow internal server on Digital Ocean available from our VPN and DMZ but not from internet.
 
@@ -190,7 +193,7 @@ Within the file include the private network address of the server that you want 
 127.0.0.1 localhost machine_hostname
 Private_IP_of_other_droplet hostname_of_other_droplet
 # for example
-# 10.128.2.18 uat2.popety.com
+# 10.134.2.18 uat2.popety.com
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
