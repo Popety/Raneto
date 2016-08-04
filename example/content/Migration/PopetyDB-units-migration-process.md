@@ -62,6 +62,8 @@ PopetyDB to popetyProd.
 
 ### Migration steps
 
+1. Start Popety VPN
+
 1. Go to a directory of your choice and get the migration code source
  ```
  git clone https://github.com/Popety/popety-v2
@@ -72,6 +74,10 @@ PopetyDB to popetyProd.
 1. Run the following commands (Set the expected MIGRATION_NUMBER)
  ```
  cd popety-v2
+ git checkout fix/migration-update
+ ```
+1. Then Run
+ ```
  node migration/unitMigrationWithCollectionStatus.js collection_status=MIGRATION_NUMBER
  ```
 
