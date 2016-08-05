@@ -6,11 +6,23 @@ Sort: 2
 > The aim of this document is to explain the units migration process from
 PopetyDB to popetyProd.
 
+List of unit data that may be updated on Popety Prod during the migration:
+* unit number
+* level
+* unit
+* block
+* area sqft
+* bedrooms
+* bathrooms
+* profile progress
+
+> Something wrong or missing ? Please let us know
+
 ## Migration Cycle
 
 <img src="%image_url%/Units-migration.png" style="text-align:left; display:inline"/>
 
-## 1 - Enter Data
+### 1 - Enter Data
 
  | | |
 -|-|-|
@@ -32,7 +44,7 @@ PopetyDB to popetyProd.
 
  <img src="%image_url%/afftected_properties.png" width="500" style="text-align:left; display:inline"/>
 
-## 2 - Validate Data
+### 2 - Validate Data
 
 | | |
 -|-|-|
@@ -44,7 +56,7 @@ PopetyDB to popetyProd.
 
  <img src="%image_url%/afftected_properties.png" width="500" style="text-align:left; display:inline"/>
 
-## 3 - Migrate Data
+### 3 - Migrate Data
 
 | | |
 -|-|-|
@@ -54,13 +66,13 @@ PopetyDB to popetyProd.
 
 > These steps using command console will be replace soon by a software Factory job
 
-### Requirement
+#### Requirement
 * Git Install
 * NodeJS Install
 * Github account
 
 
-### Migration steps
+#### Steps
 
 1. Start Popety VPN
 
