@@ -45,7 +45,7 @@ npm install -g pm2
 ```
 > The -g option tells npm to install the module globally, so that it's available system-wide.
 
-## Install ImageMagick
+## Install ImageMagick (Optional)
 
 We use node-imagemagick-native package that require ImageMagick to be installed on the server.
 
@@ -53,6 +53,19 @@ We use node-imagemagick-native package that require ImageMagick to be installed 
 ```
 sudo yum install ImageMagick-c++ ImageMagick-c++-devel
 ```
+
+## Install Redis (Optional)
+
+1. Install Redis:
+```
+yum install redis
+```
+
+1. Start Redis as a service and allow to start at reboot
+ ```
+ sudo systemctl start redis.service
+ sudo systemctl enable redis.service
+ ```
 
 ## Setup environment variables
 

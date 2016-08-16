@@ -36,6 +36,7 @@ vi /etc/nginx/conf.d/default.conf
 ```
 
 2. Add the upstream module to the top of the configuration file. The name backend can be replaced with a name of your choosing. All three backend servers are defined by their IP addresses.
+
 ```
 upstream name_of_web_server  {
    server ip_of_web_server:port_of_web_server  weight=1;
