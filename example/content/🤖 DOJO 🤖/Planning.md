@@ -14,10 +14,10 @@ Sort: 2
 
 | **Subject** | **When** | **Jedi** |
 |- |- |- |
-| Elasticsearch in Action ! | 29th July 2016 | Tibo
-| Master the Ionic Framework ! | 12th August 2016 | Karti
-| ? | 26th August 2016 | Nitin
-| ? | 10th July 2016 | You ?
+| Elasticsearch in Action ! | 29th August 2016 | Tibo
+| Master the Ionic Framework ! | 12th September 2016 | Karti
+| ? | 26th September 2016 | Nitin
+| ? | 10th October 2016 | You ?
 
 
 ### Past DOJO
