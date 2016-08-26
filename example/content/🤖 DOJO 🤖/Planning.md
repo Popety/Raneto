@@ -12,7 +12,7 @@ Sort: 2
 
 ### Next DOJO
 
-| **Subject** | **When** | **Maset** |
+| **Subject** | **When** | **Jedi** |
 |- |- |- |
 | Elasticsearch in Action ! | 29th July 2016 | Tibo
 | Master the Ionic Framework ! | 12th August 2016 | Karti
