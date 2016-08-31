@@ -3,7 +3,7 @@
 > “Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live”
 ― John Woods
 
-##### Before, we start coding we should really look into where the world is going. Javascript is moving from ES5 to ES6. So, we will try to follow ES6 coding structure and definitions.
+##### Javascript is moving from ES5 to ES6. So, we will try to follow ES6 coding structure and definitions as much as possible.
 
 ```
 MORE ABOUT ES6: http://es6-features.org/
