@@ -16,20 +16,19 @@ MORE ABOUT ES6: http://es6-features.org/
 
 #### Structure
 
-<!-- * [**Structure**](#)
-  * [**api/**](#)
-  * [**certificates/**](#)
-  * [**common/**](#)
-  * [**config/**](#)
-  * [**db/**](#)
-  * [**dr/**](#)
-  * [**event/**](#)
-  * [**fonts/**](#)
-  * [**interceptors/**](#)
-  * [**job/**](#)
-  * [**migration/**](#)
-  * [**process/**](#)
-  * [**quickFixJob/**](#)
-  * [**socket/**](#)
-  * [**sql/**](#)
-  * [**test/**](#) -->
+  * api
+  * certificates
+  * common
+  * config
+  * db
+  * dr
+  * event
+  * fonts
+  * interceptors
+  * job
+  * migration
+  * process
+  * quickFixJob
+  * socket
+  * sql
+  * test
