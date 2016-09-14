@@ -61,8 +61,8 @@ git push --force
 **How:**
 ```
 git checkout feature/xxx
-git rebase -i origin/master
-(remove initial commit)
+git pull
+git rebase origin/master
 git checkout master
 git pull
 git merge --no-ff feature/xxx
@@ -166,6 +166,21 @@ This section explain the release process to follow to tag the release on Github.
 
 **How:**
 ```
-git tag -a vx.y.z -m "Popety version x.y.z"
-git push --follow-tags
+git tag -a vx.y.z
+# Enter the description as described below
+git push origin --tags
+```
+
+Description example:
+```
+[app_name] Web App Version 1.0.0
+
+RELEASE NOTE
+
+Feature:
+
+Improvement:
+
+Fix:
+- Remove New Relic agent
 ```
