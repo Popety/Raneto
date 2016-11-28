@@ -7,7 +7,7 @@ Branching model are 4 kinds of branch :
 * **fix/xxx** : Fix branch is dedicated to integrate bugfix on Master branch. If needed the fix is then cherry pick on stable branch.
 * **poc/xxx** : Poc branches are dedicated branch to develop a Prove of Concept (PoC).
 
-<img src="%image_url%/Git-Workflow.png" style="text-align:left; display:inline"/>
+<img src="https://github.com/Popety/Raneto/tree/master/themes/default/public/images/Git-Workflow.png" style="text-align:left; display:inline"/>
 
 ## Master Branch
 
